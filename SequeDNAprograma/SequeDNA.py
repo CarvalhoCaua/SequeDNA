@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def sequedna_v3(genearq_txt):
+def sequedna(genearq_txt):
     getsequence = open(genearq_txt)
     sequence = getsequence.read()
     sequencecomp = ''
@@ -38,4 +38,4 @@ def sequedna_v3(genearq_txt):
     dataframe.to_csv('dataframe.txt', sep='\t', index=False)
 
 
-sequedna_v3("SRY.txt")
+sequedna("SRY.txt")
