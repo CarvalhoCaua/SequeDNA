@@ -37,5 +37,3 @@ def sequedna(genearq_txt):
     dataframe.to_csv('dataframe.csv')
     dataframe.to_csv('dataframe.txt', sep='\t', index=False)
 
-
-sequedna("SRY.txt")

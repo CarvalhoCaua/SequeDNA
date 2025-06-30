@@ -1,4 +1,4 @@
-from SequeDNAprograma.SequeDNA import sequedna
+from SequeDNA import sequedna
 
 sequedna("SRY.txt")
 
